@@ -1,6 +1,6 @@
 <template>
     <section v-if="open" class=" sm:hidden mt-3 mx-3 lg:mx-auto bg-white px-3 py-3">
-        <section class="grid grid-cols-6 gap-3">
+        <section class="grid grid-cols-6 gap-3 text-xs">
             <div class="col-span-3">
                 <a href="/" class="btn btn-primary btn-block">
                     Startseite

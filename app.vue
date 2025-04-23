@@ -19,5 +19,11 @@ onMounted(() => {
         console.error('Service Worker registration failed:', error);
       });
   }
+  useHead({
+    link: [{
+      rel: 'manifest',
+      href: '/site.webmanifest'
+    }],
+  });
 })
 </script>

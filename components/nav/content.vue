@@ -7,8 +7,28 @@
                 </a>
             </div>
             <div class="col-span-3">
-                <a href="/" class="btn btn-primary btn-block">
+                <a href="/login" class="btn btn-primary btn-block">
                     Login
+                </a>
+            </div>
+            <div class="col-span-3">
+                <a href="/user/profile" class="btn btn-primary btn-block">
+                    Profile
+                </a>
+            </div>
+            <div class="col-span-3">
+                <a href="/servers" class="btn btn-primary btn-block">
+                    Servers
+                </a>
+            </div>
+            <div class="col-span-3">
+                <a href="/volumes" class="btn btn-primary btn-block">
+                    Volumes
+                </a>
+            </div>
+            <div class="col-span-3">
+                <a href="/impressum" class="btn btn-primary btn-block">
+                    Impressum
                 </a>
             </div>
         </section>

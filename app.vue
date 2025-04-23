@@ -23,7 +23,13 @@ onMounted(() => {
     link: [{
       rel: 'manifest',
       href: '/site.webmanifest'
-    }],
+    },
+    {
+      rel: 'icon',
+      type: 'image/png',
+      href: '/icons/hetzner-mobile-512x512.png'
+    }
+  ],
   });
 })
 </script>

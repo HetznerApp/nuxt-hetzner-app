@@ -3,6 +3,7 @@ module.exports = {
     './pages/**/*.{vue}',
     './components/**/*.{vue}',
     './layouts/**/*.{vue}',
+    './app.vue',
   ],
   purge: [],
   darkMode: false, // or 'media' or 'class'

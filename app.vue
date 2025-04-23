@@ -1,7 +1,9 @@
 <template>
-  <NuxtLayout>
-    <NuxtPage />
-  </NuxtLayout>
+  <section class="bg-blue-400">
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+  </section>
 </template>
 
 <script setup lang="ts">

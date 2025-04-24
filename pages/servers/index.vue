@@ -11,7 +11,17 @@
                             <FontAwesomeIcon :icon="faServer" class="w-5 mr-3" color="blue" />
                             <span>{{ server.id }} - {{ server.name }}</span>
                         </section>
-                        <FontAwesomeIcon :icon="faEye" class="w-5" color="blue" />
+                        <section class="actions space-x-3">
+                            <a :href="'/server/?id=' + server.id">
+                                <FontAwesomeIcon :icon="faEye" class="w-5" color="blue" />
+                            </a>
+                            <a :href="'/server/edit?id=' + server.id">
+                                <FontAwesomeIcon :icon="faEdit" class="w-5" color="blue" />
+                            </a>
+                            <a :href="'/server/delete?id=' + server.id">
+                                <FontAwesomeIcon :icon="faTrash" class="w-5" color="blue" />
+                            </a>
+                        </section>
                     </div>
                 </div>
             </section>
@@ -19,7 +29,7 @@
     </section>
 </template>
 <script setup lang="ts">
-import { faEye, faPlusCircle, faServer } from '@fortawesome/free-solid-svg-icons';
+import { faEdit, faEye, faPlusCircle, faServer, faTrash } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { useLocalStorage } from '@vueuse/core';
 

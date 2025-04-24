@@ -7,7 +7,8 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/plausible'],
   plausible: {
     domain: 'hetzner.app',
-    apiHost: 'https://tracking.jmse.cloud'
+    apiHost: 'https://tracking.jmse.cloud',
+    ignoredHostnames: ['localhost'],
   },
   vite: {
     plugins: [

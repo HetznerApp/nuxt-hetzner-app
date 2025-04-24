@@ -1,7 +1,7 @@
 <template>
     <header class="mx-auto max-w-6xl px-3 py-3 flex justify-between bg-[#FF0000]">
         <section class="logo font-bold">
-            <span>Hetzner.app</span>
+            <a href="/">Hetzner.app</a>
         </section>
         <nav>
             <NavMobile />

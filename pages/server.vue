@@ -8,8 +8,8 @@
           <span class="headline">
             CPU
           </span>
-          <span class="number text-white text-lg font-bold">
-            4 Kerne
+          <span v-if="server.server_type" class="number text-white text-lg font-bold">
+            {{ server.server_type.cores }} Kerne
           </span>
         </div>
       </div>
@@ -19,8 +19,8 @@
           <span class="headline">
             RAM
           </span>
-          <span class="number text-white text-lg font-bold">
-            8 GB
+          <span v-if="server.server_type" class="number text-white text-lg font-bold">
+            {{ server.server_type.memory }} GB
           </span>
         </div>
       </div>
@@ -28,10 +28,10 @@
         <div class="bg-gray-400 flex items-center justify-center px-3 py-3 flex-col rounded-lg">
           <FontAwesomeIcon :icon="faMicrochip" class="w-5 mb-2" color="red" />
           <span class="headline">
-            CPU
+            HardDrive
           </span>
-          <span class="number text-white text-lg font-bold">
-            4 Kerne
+          <span v-if="server.server_type" class="number text-white text-lg font-bold">
+            {{ server.server_type.disk }} GB
           </span>
         </div>
       </div>
@@ -47,6 +47,7 @@
         </div>
       </div>
     </section>
+    <ServerImage :server="server" />
   </section>
 </template>
 
@@ -78,7 +79,7 @@ const load = async () => {
     },
   });
   servers.value = (await response.json()).servers;
-  server.value = servers.value.filter((server) => server.id == route.query.id)
+  server.value = servers.value.find((server) => server.id == route.query.id)
 }
 onMounted(() => {
   load();

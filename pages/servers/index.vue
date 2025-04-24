@@ -29,7 +29,7 @@
     </section>
 </template>
 <script setup lang="ts">
-import { faEdit, faEye, faPlusCircle, faServer, faTrash } from '@fortawesome/free-solid-svg-icons';
+import { faEdit, faEye, faServer, faTrash } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { useLocalStorage } from '@vueuse/core';
 

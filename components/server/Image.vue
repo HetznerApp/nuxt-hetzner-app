@@ -3,21 +3,21 @@
         <div class="col-span-6 md:col-span-2">
             <ul class="list">
                 <li class="bg-gray-400 rounded-lg px-3 py-3 text-center">
-                    {{ props.server?.image?.name }}
+                    {{ props.image?.name }}
                 </li>
             </ul>
         </div>
         <div class="col-span-6 md:col-span-2">
             <ul class="list">
                 <li class="bg-gray-400 rounded-lg px-3 py-3 text-center">
-                    {{ props.server?.image?.architecture }}
+                    {{ props.image?.architecture }}
                 </li>
             </ul>
         </div>
         <div class="col-span-6 md:col-span-2">
             <ul class="list">
                 <li class="bg-gray-400 rounded-lg px-3 py-3 text-center">
-                    {{ props.server?.image?.type }}
+                    {{ props.image?.type }}
                 </li>
             </ul>
         </div>
@@ -26,6 +26,6 @@
 
 <script setup lang="ts">
 const props = defineProps({
-    server: { Type: Object, required: true }
+    image: { Type: Object, required: true }
 });
 </script>

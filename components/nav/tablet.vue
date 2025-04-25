@@ -6,16 +6,16 @@
             </button>
         </div>
         <div v-else class="bars space-x-4">
-            <button type="button">
+            <a href="/server/add">
                 <FontAwesomeIcon :icon="faPlusCircle" class="w-5" color="white" />
-            </button>
-            <button type="button">
+            </a>
+            <a href="/servers">
                 <FontAwesomeIcon :icon="faServer" class="w-5" color="white" />
-            </button>
-            <button type="button">
+            </a>
+            <a href="/volumes">
                 <FontAwesomeIcon :icon="faHardDrive" class="w-5" color="white" />
-            </button>
-            <button type="button" @click="open = !open">
+            </a>
+            <button href="/" type="button" @click="open = !open">
                 <FontAwesomeIcon :icon="faBars" class="w-5" color="white" />
             </button>
         </div>

@@ -4,7 +4,7 @@
             Servers
         </h3>
         <div class="server-list grid grid-cols-6 gap-3">
-            <section v-for="(server, index) in servers" class="server col-span-6 md:col-span-3">
+            <section v-for="(server, index) in servers" class="server col-span-6 md:col-span-2">
                 <div class="card card-primary" :class="{ 'bg-gray-400': true }">
                     <div class="card-body py-2 px-2 flex items-center flex-row justify-between">
                         <section class="flex items-center">

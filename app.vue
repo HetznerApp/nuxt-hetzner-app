@@ -20,6 +20,12 @@ onMounted(() => {
       });
   }
   useHead({
+    title: 'Hetzner.app',
+    meta: [
+      {
+        name: 'description',content: 'Deine App zur Steuerung der Hetzner Cloud von JMSE'
+      }
+    ],
     link: [{
       rel: 'manifest',
       href: '/site.webmanifest'

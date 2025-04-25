@@ -48,6 +48,7 @@
       </div>
     </section>
     <ServerImage :server="server" />
+    <ServerNetwork :server="server" />
   </section>
 </template>
 
@@ -75,7 +76,7 @@ const load = async () => {
   let response = await fetch('https://api.hetzner.cloud/v1/servers', {
     headers: {
       'Authorization': `Bearer ${token.value}`,
-      'Content-Type': 'application/json', // Optional, depends on the API
+      'Content-Type': 'application/json',
     },
   });
   servers.value = (await response.json()).servers;

@@ -6,7 +6,7 @@
     <p class="text-sm">Das bedeutet du bist skeptisch ob du uns trauen kannst ?</p>
     <br>
     <h3 class="font-bold text-lg flex justify-between">
-      <span>Im Code nachnachschauen</span>
+      <span>Im Code nachschauen</span>
     </h3>
     <p class="text-sm">
       Hier ist deine Möglichkeit selber im Code nachzuschauen.

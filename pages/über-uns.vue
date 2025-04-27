@@ -20,7 +20,7 @@
     <p class="text-sm">
       <span class="font-bold">Token</span> - wir speichern diesen lokal im Locale Storage und senden ihn ne zu unserem
       Server.<br>
-      <span class="font-bold">Token</span> - der Token wird aufgrund der https regeln die für unsere TLD exestiert immer
+      <span class="font-bold">Token</span> - der Token wird aufgrund der https Regeln die für unsere TLD exestiert immer
       verschlüsselt an Hetzner übertragen.
     </p><br>
     <section class="actions">

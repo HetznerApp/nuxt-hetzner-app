@@ -3,7 +3,7 @@
     <h3 class="font-bold text-lg flex justify-between">
       <span>Herzlichen Glückwunsch, du das den Security Award gewonnen.</span>
     </h3>
-    <p class="text-sm">Das bedeutet du bist skeptisch ob du uns trauen kannst ?</p>
+    <p class="text-sm">Das bedeutet du bist skeptisch ob du uns trauen kannst ? Da gibt es 2 Möglichkeiten.</p>
     <br>
     <h3 class="font-bold text-lg flex justify-between">
       <span>Im Code nachschauen</span>
@@ -22,7 +22,15 @@
       Server.<br>
       <span class="font-bold">Token</span> - der Token wird aufgrund der https regeln die für unsere TLD exestiert immer
       verschlüsselt an Hetzner übertragen.
-    </p>
+    </p><br>
+    <section class="actions">
+      <div class="text-center block">Weitere Frage und Anregungen gerne per Mail an</div>
+      <div class="text-center block">
+        <a href="mailto:support@jonathan-martz.de" class="text-blue-600">
+          support@jonathan-martz.de
+        </a>
+      </div>
+    </section>
   </section>
 </template>
 

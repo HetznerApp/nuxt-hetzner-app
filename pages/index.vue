@@ -31,7 +31,7 @@
                     Anstelle einer App wollen wir das mit einer PWA erreichen.
                     Eine PWA ist eine Progressive Web App, die sich wie eine native App anfühlt und verhält.
                 </p>
-                <a href="https://www.jonathan-martz.de" target="_blank" class="btn btn-primary btn-block btn-sm">
+                <a href="https://www.jonathan-martz.de?ref=hetzner.app" target="_blank" class="btn btn-primary btn-block btn-sm">
                     Umgesetzt wird das von Jonathan Martz
                 </a>
             </div>

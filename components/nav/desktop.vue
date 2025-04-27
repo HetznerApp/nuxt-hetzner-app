@@ -7,6 +7,10 @@
             <li><a href="/register" class="hover:font-bold">Register</a></li>
             <li><a href="/servers" class="hover:font-bold">Servers</a></li>
             <li><a href="/volumes" class="hover:font-bold">Volumes</a></li>
+            <li><a href="/firewalls" class="hover:font-bold">Firewalls</a></li>
+            <li><a href="/networks" class="hover:font-bold">Networks</a></li>
+            <li><a href="/preparation" class="hover:font-bold">Daten</a></li>
+            <li><a href="/impressum" class="hover:font-bold">Impressum</a></li>            
         </ul>
     </section>            
 </template>

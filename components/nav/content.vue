@@ -27,6 +27,46 @@
                 </a>
             </div>
             <div class="col-span-3">
+                <a href="/preparation/locations" class="btn btn-primary btn-block">
+                    Locations
+                </a>
+            </div>
+            <div class="col-span-3">
+                <a href="/preparation/datacenters" class="btn btn-primary btn-block">
+                    Datacenters
+                </a>
+            </div>
+            <div class="col-span-3">
+                <a href="/preparation/server-types" class="btn btn-primary btn-block">
+                    Server Types
+                </a>
+            </div>
+            <div class="col-span-3">
+                <a href="/preparation/load-balancer-types" class="btn btn-primary btn-block">
+                    Load Balancer Types
+                </a>
+            </div>
+            <div class="col-span-3">
+                <a href="/preparation/images" class="btn btn-primary btn-block">
+                    Image
+                </a>
+            </div>
+            <div class="col-span-3">
+                <a href="/preparation/keys" class="btn btn-primary btn-block">
+                    SSH Keys
+                </a>
+            </div>
+            <div class="col-span-3">
+                <a href="/preparation/certs" class="btn btn-primary btn-block">
+                    Certs
+                </a>
+            </div>
+            <div class="col-span-3">
+                <a href="/preparation/isos" class="btn btn-primary btn-block">
+                    ISOs
+                </a>
+            </div>
+            <div class="col-span-3">
                 <a href="/impressum" class="btn btn-primary btn-block">
                     Impressum
                 </a>
